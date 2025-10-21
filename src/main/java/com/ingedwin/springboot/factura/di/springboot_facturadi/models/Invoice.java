@@ -26,4 +26,12 @@ public class Invoice {
 
     @Autowired
     private List<Item> listaItems;
+
+    public int getTotal(){
+        int total = 0;
+        for(Item item : listaItems){
+            total += item.getImporte();
+        }
+        return total;
+    }
 }
