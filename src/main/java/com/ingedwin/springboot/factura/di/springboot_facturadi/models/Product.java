@@ -1,5 +1,16 @@
 package com.ingedwin.springboot.factura.di.springboot_facturadi.models;
 
-public class Product {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+public class Product {
+    
+    private String name;
+    private Integer price;
 }
