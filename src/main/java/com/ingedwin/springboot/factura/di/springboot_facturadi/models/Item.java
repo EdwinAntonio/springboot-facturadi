@@ -14,4 +14,7 @@ public class Item {
     private Product product;
     private Integer quantity;
 
+    public Integer getImporte(){
+        return quantity * product.getPrice();
+    }
 }

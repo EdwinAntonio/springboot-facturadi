@@ -1,0 +1,37 @@
+{
+    "client": {
+        "name": "Edwin",
+        "lastName": "Antonio"
+    },
+    "description": "Esta es una descripcion de un objeto",
+    "listaItems": [
+        {
+            "product": {
+                "name": "Camara",
+                "price": 1000
+            },
+            "quantity": 2
+        },
+        {
+            "product": {
+                "name": "Telefono",
+                "price": 2000
+            },
+            "quantity": 1
+        },
+        {
+            "product": {
+                "name": "Pantalla",
+                "price": 3000
+            },
+            "quantity": 4
+        },
+        {
+            "product": {
+                "name": "Aspiradora",
+                "price": 4000
+            },
+            "quantity": 5
+        }
+    ]
+}
